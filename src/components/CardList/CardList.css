@@ -1,0 +1,10 @@
+.card-list {
+    margin: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    flex-wrap: wrap;
+    
+}
+

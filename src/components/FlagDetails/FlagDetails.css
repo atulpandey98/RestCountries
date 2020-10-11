@@ -1,0 +1,84 @@
+.flag-detail-section {
+  margin-top: 80px;
+  /* background-color: yellow; */
+}
+
+.back-button{
+  font-size: larger;
+  margin-bottom: 80px;
+  margin-left: 200px;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  width: 180px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 6px 6px 8px 1px rgba(225, 225, 225, 0.5),
+    -6px 6px 8px 1px rgba(225, 225, 225, 0.5),
+    6px -6px 8px 1px rgba(225, 225, 225, 0.5),
+    -6px -6px 8px 1px rgba(225, 225, 225, 0.5);
+}
+
+.back-arrow {
+  font-size: 35px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.flag-detail {
+  display: flex;
+  margin: 0 200px;
+}
+
+.flag-text {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+.flag-img {
+  height: 400px;
+  width: 600px;
+  /* box-shadow: 6px 8px 6px -6px rgb(225, 225, 225); */
+}
+
+.flag-sub-text {
+  margin-top: 30px;
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-between;
+}
+
+.left-text p {
+  line-height: 110%;
+}
+
+.right-text p {
+  line-height: 110%;
+}
+
+.border-countries {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  /* background-color: aqua; */
+}
+
+.border-countries-div {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.border-countries-card {
+  padding: 10px 20px;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.border-countries-card:hover {
+  cursor: pointer;
+}
