@@ -5,8 +5,7 @@ const header = () => {
     return (
         <nav>
             <div className='header'>
-                <h2>Where in the world?</h2>
-                <h2>Dark Mode</h2>
+                <h2>Where in the world?</h2>                
             </div>
 
         </nav>
