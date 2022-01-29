@@ -13,7 +13,7 @@ class App extends Component {
       countriesMap: new Map(),
       searchField: '',
       filterRegion: 'none',
-      url: 'https://restcountries.com/v3.1/all',
+      url: 'https://restcountries.com/v2/all',
       isFlagClicked: false,
       flag: {}
     }
